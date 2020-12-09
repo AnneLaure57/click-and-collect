@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "app.security",
+      "type": "fr.ul.miage.clickandcollect.core.security.SecurityProperties",
+      "sourceType": "fr.ul.miage.clickandcollect.core.security.SecurityProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.security.store-type",
+      "type": "fr.ul.miage.clickandcollect.core.security.StoreType",
+      "sourceType": "fr.ul.miage.clickandcollect.core.security.SecurityProperties"
+    }
+  ],
+  "hints": []
+}
