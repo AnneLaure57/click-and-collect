@@ -1,0 +1,11 @@
+language: java
+jdk: openjdk11
+
+cache:
+directories:
+- "$HOME/.m2"
+
+before_install:
+- chmod +x mvnw
+
+script: chmod +x mvnw && mvn verify -q -Dspring.datasource.url=jdbc:h2:mem:travis
